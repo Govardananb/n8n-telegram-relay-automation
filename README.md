@@ -44,4 +44,8 @@ An n8n workflow that controls a relay via Telegram commands (`on`, `off`, `statu
 ## Notes
 - Google Sheets acts as the single source of truth for last relay state, so the workflow can avoid duplicate toggles.
 - The Function node preserves `chatId` so replies go to the correct Telegram conversation.
+
+## Workflow
+
 ![Workflow screenshot](workflow.png)
+
